@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VOIX de la Grâce</title>
+    <title>GROUPE BLESSING</title>
 
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -26,14 +26,20 @@
   <div class="container d-flex justify-content-between align-items-center py-3">
     
     <!-- Logo -->
-    <div class="d-flex align-items-center gap-3">
-      <div class="d-flex justify-content-center align-items-center rounded-lg" style="width:40px; height:40px; background: linear-gradient(to bottom right, #1d4ed8, #f97316);">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="width:20px;height:20px; color:white;">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-2v13"/>
-        </svg>
-      </div>
-      <h1 class="h5 fw-bold mb-0 text-primary">Voix de la Grâce</h1>
-    </div>
+
+<div class="d-flex align-items-center gap-3">
+  <!-- Cercle doré contenant le logo -->
+  <div class="d-flex justify-content-center align-items-center rounded-circle" 
+       style="width:70px; height:70px; background-color: #d6d0d0;"> <!-- Jaune/or -->
+    <img src="assets/images/blessing.png" 
+         alt="Logo du groupe Blessing" 
+         style="width:60px; height:60px;" class="img-fluid">
+  </div>
+  
+  <!-- Texte -->
+  <h1 class="h5 fw-bold mb-0" style="color: #999600;">GROUPE BLESSING</h1> <!-- Texte noir -->
+</div>
+
 
     <!-- Burger button (mobile only) -->
     <button class="btn d-md-none border-0" id="menu-toggle" style="background:none;">
@@ -44,19 +50,19 @@
 
     <!-- Navigation (desktop) -->
     <nav class="d-none d-md-flex gap-3 align-items-center">
-      <a href="#projet" class="text-dark text-decoration-none fw-medium">Projet</a>
-      <a href="#auteur" class="text-dark text-decoration-none fw-medium">À propos</a>
-      <a href="#chants" class="text-dark text-decoration-none fw-medium">Chants</a>
+      <a href="#projet" class="text-dark text-decoration-none fw-medium"> Blessing</a>
+      <a href="#blessing" class="text-dark text-decoration-none fw-medium">À propos</a>
+      <a href="#actions" class="text-dark text-decoration-none fw-medium">Actions</a>
       <a href="#contact" class="text-dark text-decoration-none fw-medium">Contact</a>
-      <button id="donate-btn-header" class="donation-btn-header">Soutenir ❤️</button>
+      <button id="donate-btn-header" class="donation-btn-header">Faire un don ❤️</button>
     </nav>
   </div>
 
   <!-- Navigation mobile -->
   <div id="mobileMenu" class="d-md-none bg-white text-center py-3 shadow-sm" style="display:none;">
-    <a href="#projet" class="d-block py-2 text-dark text-decoration-none fw-medium">Projet</a>
-    <a href="#auteur" class="d-block py-2 text-dark text-decoration-none fw-medium">À propos</a>
-    <a href="#chants" class="d-block py-2 text-dark text-decoration-none fw-medium">Chants</a>
+    <a href="#projet" class="d-block py-2 text-dark text-decoration-none fw-medium">Blessing</a>
+    <a href="#blessing" class="d-block py-2 text-dark text-decoration-none fw-medium">À propos</a>
+    <a href="#actions" class="d-block py-2 text-dark text-decoration-none fw-medium">Chants</a>
     <a href="#contact" class="d-block py-2 text-dark text-decoration-none fw-medium">Contact</a>
     <button id="donate-btn-header-mobile" class="donation-btn-header mt-2">Soutenir ❤️</button>
   </div>
@@ -124,14 +130,14 @@ menuToggle.addEventListener("click", () => {
 
   <!-- Contenu texte -->
   <div class="position-relative px-4 py-5" style="z-index: 2; max-width: 900px;">
-    <span class="badge bg-warning text-dark fs-6 mb-3">✨ DÉCOUVREZ</span>
-    <h1 class="display-3 fw-bold mb-4">Voix de la <span class="text-warning">Grâce</span></h1>
+    <span class="badge bg-warning text-dark fs-6 mb-3"> DÉCOUVREZ</span>
+    <h1 class="display-3 fw-bold mb-4">LE GROUPE  <span class="text-warning">BLESSING</span></h1>
     <p class="lead mb-4 fs-5 text-light">
-      Une collection de chants spirituels qui touchent l'âme et élèvent l'esprit.
+      Le groupe bleesing  une initiative de jeunes chretiens  pour Aider les personnes dans le besoin avec compassion et dévouement
     </p>
     <div class="d-flex flex-column flex-md-row justify-content-center gap-3">
-      <a href="#chants" class="btn btn-primary btn-lg px-4 py-3 fw-semibold">Écouter les chants</a>
-      <a href="#auteur" class="btn btn-outline-light btn-lg px-4 py-3 fw-semibold">En savoir plus</a>
+      <a href="#actions" class="btn btn-primary btn-lg px-4 py-3 fw-semibold">VOIR NOS ACTIONS</a>
+      <a href="#blessing" class="btn btn-outline-light btn-lg px-4 py-3 fw-semibold">En savoir plus</a>
     </div>
   </div>
 
@@ -193,10 +199,10 @@ setInterval(() => {
                     <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zM7 11.5a.5.5 0 0 1-1 0v-6a.5.5 0 0 1 1 0v6zm2 0a.5.5 0 0 1-1 0v-6a.5.5 0 0 1 1 0v6z"/>
                 </svg>
             </div>
-            <h2 class="display-5 fw-bold text-dark mb-3">À propos du Projet</h2>
+            <h2 class="display-5 fw-bold text-dark mb-3">À propos du Groupe Blessing</h2>
             <div class="mx-auto gradient-accent"></div>
             <p class="lead text-muted mt-4 max-w-2xl mx-auto">
-                Découvrez l'essence et la mission derrière "Voix de la Grâce"
+                Découvrez l'essence et la mission derrière "LE GROUPE BLESSING"
             </p>
         </div>
         
@@ -213,7 +219,7 @@ setInterval(() => {
                             <h3 class="h4 text-primary fw-semibold mb-0">Notre Vision</h3>
                         </div>
                         <p class="text-secondary fs-5 lh-lg">
-                            "Voix de la Grâce" est un projet musical unique qui célèbre la spiritualité à travers des chants authentiques et inspirants. Notre vision est de créer une expérience musicale qui transcende les frontières et touche les cœurs.
+                            "Construire une communauté solidaire où l’amour chrétien se traduit par des actions concrètes en faveur des personnes dans le besoin."
                         </p>
                     </div>
                 </div>
@@ -228,10 +234,10 @@ setInterval(() => {
                                     <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zM7 11.5a.5.5 0 0 1-1 0v-6a.5.5 0 0 1 1 0v6zm2 0a.5.5 0 0 1-1 0v-6a.5.5 0 0 1 1 0v6z"/>
                                 </svg>
                             </div>
-                            <h3 class="h4 text-primary fw-semibold mb-0">Notre Message</h3>
+                            <h3 class="h4 text-primary fw-semibold mb-0">Notre Mission</h3>
                         </div>
                         <p class="text-secondary fs-5 lh-lg">
-                            Par la musique, nous souhaitons créer un espace de sérénité, de réflexion et de connexion spirituelle. Chaque chant porte un message d'espoir, de paix et de grâce divine pour accompagner votre cheminement spirituel.
+                          "Apporter aide, soutien et espoir aux personnes vulnérables à travers des actions d’entraide menées avec compassion, foi et dévouement."
                         </p>
                     </div>
                 </div>
@@ -245,16 +251,16 @@ setInterval(() => {
                     <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z"/>
                 </svg>
                 <p class="fs-4 fst-italic text-dark mb-2" style="font-family: 'Georgia', serif; line-height: 1.6;">
-                    "La musique est le langage universel de l'âme, elle parle là où les mots échouent."
+                    "La religion pure et sans tache consiste à prendre soin des orphelins et des veuves dans leur détresse, et à se préserver des souillures du monde."
                 </p>
-                <p class="text-muted fw-medium">- Hans Christian Andersen</p>
+                <p class="text-muted fw-medium">- Jacques 1:27 -</p>
             </div>
         </div>
     </div>
 </section>
 
 <!-- Section Auteur -->
-<section id="auteur" class="py-5 bg-white position-relative">
+<section id="blessing" class="py-5 bg-white position-relative">
     <div class="container position-relative">
         <div class="text-center mb-5">
             <div class="mb-3">
@@ -262,7 +268,7 @@ setInterval(() => {
                     <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
                 </svg>
             </div>
-            <h2 class="display-5 fw-bold text-dark mb-3">À Propos de l'Auteur</h2>
+            <h2 class="display-5 fw-bold text-dark mb-3">À Propos du GROUPE BLESSING</h2>
             <div class="mx-auto gradient-accent"></div>
         </div>
         
@@ -270,30 +276,32 @@ setInterval(() => {
             <div class="col-lg-4">
                 <div class="text-center">
                     <div class="avatar-wrapper mx-auto mb-4">
-                        <img src="assets/images/lima1.jpeg" alt="Mr Lima" class="rounded-circle shadow-lg" style="width: 200px; height: 200px; object-fit: cover;">
+                        <img src="assets/images/blessing.png" alt="Dan Pambi" class="rounded-circle shadow-lg" style="width: 200px; height: 200px; object-fit: cover;">
                     </div>
-                    <h4 class="fw-bold text-dark">Mr Lima</h4>
-                    <p class="text-muted">Compositeur & Artiste Spirituel</p>
+                    <h4 class="fw-bold text-dark">GROUPE BLESSING</h4>
+                    <p class="text-muted">Amour & Compassion</p>
                 </div>
             </div>
             <div class="col-lg-8">
                 <div class="card border-0 shadow-sm">
                     <div class="card-body p-4 p-lg-5">
                         <p class="text-secondary fs-5 lh-lg mb-4">
-                            Passionné de musique depuis son plus jeune âge, Mr Lima consacre son talent à la création de chants spirituels qui inspirent et élèvent. Avec plus de 15 ans d'expérience dans la composition musicale, il a développé un style unique qui allie tradition et modernité.
+                            Le groupe Blessing est une initiative de jeunes chrétiens dédiée à l’entraide et au soutien des personnes dans le besoin.
+                             Animés par la foi et la compassion, nous nous engageons à apporter aide, espoir et réconfort aux plus vulnérables, conformément à l’enseignement biblique :
+                              « La religion pure et sans tache consiste à visiter les veuves et les orphelins dans leur détresse » (Jacques 1:27). Notre vision est de construire une communauté solidaire où l’amour chrétien se traduit par des actions concrètes, et notre mission est de mener ces actions avec dévouement et responsabilité, afin de faire une différence tangible dans la vie des personnes que nous aidons.
                         </p>
                         <p class="text-secondary fs-5 lh-lg mb-4">
                             Sa mission est de partager des messages de foi, d'espoir et d'amour à travers une musique qui touche l'âme et transforme les cœurs.
                         </p>
                         <div class="d-flex flex-wrap gap-3 mt-4">
                             <span class="badge bg-primary bg-opacity-10 text-primary fs-6 px-3 py-2">
-                                🎵 Composition
+                                💖 Amour
                             </span>
                             <span class="badge bg-warning bg-opacity-10 text-warning fs-6 px-3 py-2">
-                                ✨ Spiritualité
+                                🤲 Compassion
                             </span>
                             <span class="badge bg-primary bg-opacity-10 text-primary fs-6 px-3 py-2">
-                                🎼 Arrangement
+                                🤝 Solidarité
                             </span>
                         </div>
                     </div>
@@ -304,32 +312,39 @@ setInterval(() => {
 </section>
 
 
-<!-- Section Chants -->
-<section id="chants" class="py-5 bg-light position-relative overflow-hidden">
+<!-- Section Actions -->
+<section id="actions" class="py-5 bg-light position-relative overflow-hidden">
     <!-- Éléments décoratifs d'arrière-plan -->
     <div class="position-absolute top-0 end-0 w-25 h-25" style="background: radial-gradient(circle, rgba(29,78,216,0.1) 0%, transparent 70%); transform: translate(30%, -30%);"></div>
     <div class="position-absolute bottom-0 start-0 w-25 h-25" style="background: radial-gradient(circle, rgba(249,115,22,0.1) 0%, transparent 70%); transform: translate(-30%, 30%);"></div>
     
-    <div class="container position-relative">
-        <!-- En-tête stylisée -->
-        <div class="text-center mb-5">
-            <div class="mb-4">
-                <div class="music-icon-wrapper mx-auto mb-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="text-warning" viewBox="0 0 16 16">
-                        <path d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13c0-1.104 1.12-2 2.5-2s2.5.896 2.5 2zm9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2z"/>
-                        <path fill-rule="evenodd" d="M14 11V2h1v9h-1zM6 3v10H5V3h1z"/>
-                        <path d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4V2.905z"/>
-                    </svg>
-                </div>
+   <div class="container position-relative">
+    <!-- En-tête stylisée -->
+    <div class="text-center mb-5">
+        <div class="mb-4">
+            <!-- Cercle/card autour du logo -->
+            <div class="music-icon-wrapper mx-auto mb-3" 
+                 style="width: 140px; height: 140px; border-radius: 50%; background-color: #fff; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                <!-- Logo du groupe Blessing -->
+                <img src="assets/images/blessing.png" 
+                     alt="Logo du groupe Blessing" 
+                     width="120"
+                     height="120"
+                     class="img-fluid rounded-circle">
             </div>
-            <h2 class="display-4 fw-bold text-dark mb-3" style="font-family: 'Georgia', serif;">
-                Découvrez nos Chants
-            </h2>
-            <div class="mx-auto gradient-accent mb-4"></div>
-            <p class="lead text-muted max-w-2xl mx-auto fs-5">
-                Plongez dans une expérience musicale spirituelle unique. Chaque chant est une prière, chaque note une bénédiction.
-            </p>
         </div>
+
+        <h2 class="display-4 fw-bold text-dark mb-3" style="font-family: 'Georgia', serif;">
+            Découvrez nos actions
+        </h2>
+
+        <div class="mx-auto gradient-accent mb-4" style="width: 80px; height: 4px; border-radius: 2px;"></div>
+
+        <p class="lead text-muted mx-auto fs-5" style="max-width: 700px;">
+            Entrez dans l’univers du groupe Blessing. Chaque don, chaque action est une réussite pour le groupe et une bénédiction pour ceux qui en ont besoin.
+        </p>
+    </div>
+</div>
 
        
 
@@ -433,8 +448,9 @@ setInterval(() => {
                                                 </svg>
                                             </div>
                                             <div>
-                                                <h4 class="h6 fw-semibold text-dark mb-1">Suggestions</h4>
-                                                <p class="text-secondary small">Proposez des thèmes pour les prochains chants</p>
+                                               <h4 class="h6 fw-semibold text-dark mb-1">Suggestions</h4>
+                                                <p class="text-secondary small">Proposez des idées pour les prochaines actions et missions du groupe Blessing</p>
+
                                             </div>
                                         </div>
                                         
@@ -612,7 +628,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-<!-- Bouton d'ouverture - Version Ultra Attractive -->
+Bouton d'ouverture - Version Ultra Attractive
 <div class="text-end"> <!-- Ajout de cette div pour aligner à droite -->
   <button
     id="openDonationModal"
@@ -630,7 +646,7 @@ document.addEventListener("DOMContentLoaded", () => {
     </span>
     
     <!-- Texte du bouton -->
-    <span class="position-relative">Soutenir la Musique Sacrée</span>
+    <span class="position-relative">Faire un don Volontaire</span>
     
     <!-- Badge animé -->
     <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-white text-warning border-0 shadow-sm pulse">
@@ -693,7 +709,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="row g-3">
               <div class="col-12">
                 <label class="form-label text-muted small mb-1">Titulaire du compte</label>
-                <div class="fw-semibold text-dark">Voix de la Grâce - Mr Lima</div>
+                <div class="fw-semibold text-dark">GROUPE BLESSING</div>
               </div>
               <div class="col-md-6">
                 <label class="form-label text-muted small mb-1">IBAN</label>
@@ -710,7 +726,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <!-- Message de remerciement -->
         <div class="text-center mt-4 p-3 rounded bg-warning bg-opacity-10 border border-warning border-opacity-25">
           <p class="text-dark mb-0 small">
-            <strong>Merci d'être un ange gardien de notre musique !</strong> 🎵✨
+            <strong>Merci d’être une bénédiction pour une vie, un cœur !</strong> 🙌✨
           </p>
         </div>
       </div>
@@ -887,23 +903,25 @@ document.addEventListener('click', function(e) {
       <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
         <div class="footer-brand mb-4">
           <div class="d-flex align-items-center mb-3">
-            <div class="footer-logo-icon me-3">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13c0-1.104 1.12-2 2.5-2s2.5.896 2.5 2zm9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2z"/>
-                <path fill-rule="evenodd" d="M14 11V2h1v9h-1zM6 3v10H5V3h1z"/>
-                <path d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4V2.905z"/>
-              </svg>
+             <div class="music-icon-wrapper mx-auto mb-3" 
+                 style="width: 80px; height: 80px; border-radius: 50%; background-color: #fff; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                <!-- Logo du groupe Blessing -->
+                <img src="assets/images/blessing.png" 
+                     alt="Logo du groupe Blessing" 
+                     width="70"
+                     height="70"
+                     class="img-fluid rounded-circle">
             </div>
-            <h3 class="fw-bold mb-0 text-white" style="font-family: 'Georgia', serif;">Voix de la Grâce</h3>
+            <h3 class="fw-bold mb-0 text-white" style="font-family: 'Georgia', serif;">GROUPE BLESSING</h3>
           </div>
           <div class="gradient-accent-footer mb-4"></div>
         </div>
         <p class="text-light opacity-80 mb-4 fs-6 lh-lg">
-          Une collection de chants spirituels inspirants qui touchent le cœur, élèvent l'âme et créent des ponts entre le ciel et la terre.
+          "Construire une communauté solidaire où l’amour chrétien se traduit par des actions concrètes en faveur des personnes dans le besoin."
         </p>
         <div class="footer-inspiration p-3 rounded">
           <p class="text-warning mb-0 fst-italic small">
-            "La musique est la prière du cœur qui ne connaît pas de mots"
+            "Le DON   est une clé qui ouvre les portes de la benediction."
           </p>
         </div>
       </div>
@@ -926,23 +944,23 @@ document.addEventListener('click', function(e) {
             </a>
           </li>
           <li class="mb-3">
-            <a href="#auteur" class="footer-link d-flex align-items-center">
+            <a href="#blessing" class="footer-link d-flex align-items-center">
               <span class="link-icon me-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" viewBox="0 0 16 16">
                   <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
                 </svg>
               </span>
-              L'Auteur
+              le G.blessing
             </a>
           </li>
           <li class="mb-3">
-            <a href="#chants" class="footer-link d-flex align-items-center">
+            <a href="#actions" class="footer-link d-flex align-items-center">
               <span class="link-icon me-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" viewBox="0 0 16 16">
                   <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
                 </svg>
               </span>
-              Nos Chants
+              Nos actions
             </a>
           </li>
           <li>
@@ -972,8 +990,8 @@ document.addEventListener('click', function(e) {
               </svg>
             </div>
             <div>
-              <a href="mailto:contact@voixdelagrace.ma" class="text-light text-decoration-none opacity-80 hover-opacity-100">
-                contact@voixdelagrace.ma
+              <a href="mailto:groupeblessing75@gmail.com" class="text-light text-decoration-none opacity-80 hover-opacity-100">
+                groupeblessing75@gmail.com
               </a>
             </div>
           </div>
@@ -984,7 +1002,7 @@ document.addEventListener('click', function(e) {
               </svg>
             </div>
             <div>
-              <span class="text-light opacity-80">+212 772376608</span>
+              <span class="text-light opacity-80">+226 66 11 51 58</span>
             </div>
           </div>
         </div>
@@ -1034,7 +1052,7 @@ document.addEventListener('click', function(e) {
       <div class="row align-items-center">
         <div class="col-md-6 text-center text-md-start">
           <p class="text-muted mb-0 small">
-            © 2025 <span class="text-warning">Voix de la Grâce</span>. Tous droits réservés.
+            © 2025 <span class="text-warning">groupeblessing</span>. Tous droits réservés.
           </p>
         </div>
         <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
@@ -1200,7 +1218,7 @@ document.addEventListener('click', function(e) {
 
 
 <script>
-  const SHEET_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSUnUB8axp11YfQM3uu6x3dWDxv08OG-xcNmmWFe9N-R8ebaP71KyMy7hPy7ihlQZvnXeHNbhA6riFm/pub?gid=1779052117&single=true&output=csv";
+  const SHEET_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQdRnhOiKZe7UaxNLYhR3U6p_DV99p7qpRl0gwfJdbex4HxANMHTecwETWXv2oiLTx6_CkfwVvX8plT/pub?gid=0&single=true&output=csv";
 
   // Fonction pour transformer un lien Google Drive classique en lien direct
   function convertDriveLink(url) {
